@@ -3,12 +3,32 @@
 	xsi:schemaLocation="http://dozer.sourceforge.net 
            http://dozer.sourceforge.net/schema/beanmapping.xsd">
 
-<mapping>
-	<class-a>techlearning.dozer.demo.Employee</class-a>
-	<class-b>techlearning.dozer.demo.EmployeeDTO</class-b>
-	<field>
-		<a>name</a>
-		<b>fullName</b>
-	</field>
-</mapping>
+	<mapping>
+		<class-a>techlearning.dozer.demo.Employee</class-a>
+		<class-b>techlearning.dozer.demo.EmployeeDTO</class-b>
+		<field>
+			<a>name</a>
+			<b>fullName</b>
+		</field>
+
+		<field>
+			<a>person</a>
+			<b>pDTO</b>
+		</field>
+	</mapping>
+
+	<mapping>
+		<class-a>techlearning.dozer.demo.Person</class-a>
+		<class-b>techlearning.dozer.demo.PersonDTO</class-b>
+		<field>
+			<a>pId</a>
+			<b>prdId</b>
+		</field>
+
+		<field>
+			<a>pN</a>
+			<b>prdN</b>
+		</field>
+
+	</mapping>
 </mappings>      

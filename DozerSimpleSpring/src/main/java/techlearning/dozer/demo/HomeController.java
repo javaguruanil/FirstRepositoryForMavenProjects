@@ -35,6 +35,14 @@ public class HomeController {
 		employee.setId(1000);
 		employee.setName("RMA");
 		employee.setSalary(5000.0);
+		employee.setAddress("Vellore Distrct");
+		
+		Person p= new Person();
+		p.setpId(1);
+		p.setpN("P1-Anil");
+		
+		employee.setPerson(p);
+		
 //		Mapper mapper =new DozerBeanMapper();   //===> By using DozerBeanMapper we can map all the attributes
 		
 //		Mapper mapper = DozerBeanMapperSingletonWrapper.getInstance(); //===> By using this we can map our required DIFFERNT name attribute's 
